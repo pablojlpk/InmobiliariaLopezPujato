@@ -4,11 +4,11 @@ using InmobiliariaLopezPujato.Models;
 
 namespace InmobiliariaLopezPujato.Controllers;
 
-public class InquilinoController : Controller
+public class PropietarioController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
-    public InquilinoController(ILogger<HomeController> logger)
+    public PropietarioController(ILogger<HomeController> logger)
     {
         _logger = logger;
     }
